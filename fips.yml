@@ -1,0 +1,16 @@
+imports:
+    liboculus:
+        git: https://github.com/amarburg/liboculus.git
+    libactiveobject:
+        git: https://github.com/apl-ocean-engineering/libactive_object.git
+    libg3logger:
+        git: https://github.com/apl-ocean-engineering/libg3logger.git
+    CLI11-fips:
+        git: https://github.com/apl-ocean-engineering/CLI11-fips.git
+    libdraw_sonar:
+        git: https://github.com/apl-ocean-engineering/libdraw_sonar.git
+
+defines:
+  FIPS_EXCEPTIONS: ON
+  FIPS_RTTI: ON
+  FIPS_UNITTESTS_RUN_AFTER_BUILD: ON
